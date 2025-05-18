@@ -1,5 +1,21 @@
 package main
 
+import "fmt"
+
 func main() {
-	print("hello world")
+	fmt.Println("Hello words")
+	variable()
+}
+
+func variable(){
+	//String Variables
+
+	var name string = "Suraj"
+
+	var name1 = " Singh"
+
+	name2 := name+name1;
+
+	fmt.Println(name2)
+
 }
