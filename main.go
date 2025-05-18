@@ -4,18 +4,19 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello words")
-	variable()
+	// variable()
+	TryLoops()
 }
 
-func variable(){
-	//String Variables
+// func variable(){
+// 	//String Variables
 
-	var name string = "Suraj"
+// 	// var name string = "Suraj"
 
-	var name1 = " Singh"
+// 	// var name1 = " Singh"
 
-	name2 := name+name1;
+// 	// name2 := name+name1;
 
-	fmt.Println(name2)
+// 	// fmt.Println(name2)
 
-}
+// }
