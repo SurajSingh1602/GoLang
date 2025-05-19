@@ -1,3 +1,3 @@
 # GoLang
 
-all the code is in master branch 
+all the code is just a code hue hue 
