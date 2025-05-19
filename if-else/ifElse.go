@@ -15,10 +15,20 @@ func main(){
 
 	var role = "admin"
 	var hasPermission = true
+	var gender = "Male"
 
 	if role == "admin" && hasPermission{
 		fmt.Println("Can Access")
 	} else {
 		fmt.Println("Cannot Access the data")
+	}
+
+
+	if(role == "admin"){
+		if(gender=="Female"){
+			fmt.Println("Aurat admin h")
+		}else{
+			fmt.Println("Mard admin h")
+		}
 	}
 }	
